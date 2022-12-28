@@ -1,0 +1,8 @@
+stepDefs\Members.class
+stepDefs\Organizations.class
+Global_variables\Variables.class
+stepDefs\Hooks.class
+stepDefs\Get_board.class
+runners\TestRunner.class
+stepDefs\Boards.class
+stepDefs\Lists.class

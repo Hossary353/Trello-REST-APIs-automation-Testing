@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="9.551">
+<testcase classname="Trello APIs With Different requests" name="Create a new organization (workspace)" time="3.851">
+<system-out><![CDATA[Given implementing trello API to create new workspace.......................passed
+When Using POST request with the specified authorization....................passed
+Then receive expected response will result 200 ok...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello APIs With Different requests" name="Get Organizations for a member" time="0.905">
+<system-out><![CDATA[Given using GET request to get member id....................................passed
+When implementing trello API to Get existing workspace......................passed
+And using GET request with specified authorization..........................passed
+Then receive expected organization response will result 200 ok..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello APIs With Different requests" name="Create a board inside an organization" time="0.563">
+<system-out><![CDATA[Given implementing trello API to create new board in existing workspace.....passed
+When using POST request with required board creating parameters.............passed
+Then receive expected board response will result 200 ok.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello APIs With Different requests" name="Get boards in an organization" time="0.515">
+<system-out><![CDATA[Given implementing trello API to Get existing board in specific work space..passed
+When Using GET request with the specified authorization for existing board..passed
+Then receive created board expected response will result 200 ok.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello APIs With Different requests" name="Create a new list" time="0.459">
+<system-out><![CDATA[Given implementing trello API to create new list............................passed
+When using POST request to create alist in existing board & organization....passed
+Then receive expected list response will result 200 ok......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello APIs With Different requests" name="Get all lists on a board" time="0.535">
+<system-out><![CDATA[Given implementing trello API to get all lists on board.....................passed
+When using GET request to view all existing lists on board..................passed
+Then receive expected all list response will result 200 ok..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello APIs With Different requests" name="Archive a list" time="0.576">
+<system-out><![CDATA[Given implementing trello API to Archive new workspace......................passed
+When using PUT request to update a status of a list to be archived..........passed
+Then receive expected archive response will result 200 ok...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello APIs With Different requests" name="Delete a board" time="1.125">
+<system-out><![CDATA[Given implementing trello API to Delete an existing board...................passed
+When using DELETE request to delete an existing board.......................passed
+Then receive expected delete response will result 200 ok....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello APIs With Different requests" name="Delete an organization" time="0.669">
+<system-out><![CDATA[Given implementing trello API to Delete an existing workspace...............passed
+When using DELETE request to delete an existing Organization................passed
+Then receive expected delete workspace response will result 200 ok..........passed
+]]></system-out>
+</testcase>
+</testsuite>

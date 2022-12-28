@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="runners.TestRunner" duration-ms="10433" started-at="2022-12-28T19:32:13 EET" finished-at="2022-12-28T19:32:23 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="10433" started-at="2022-12-28T19:32:13 EET" finished-at="2022-12-28T19:32:23 EET">
+      <class name="runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@3cef309d]" name="setUpClass" is-config="true" duration-ms="768" started-at="2022-12-28T19:32:13 EET" finished-at="2022-12-28T19:32:14 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@542f6803]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="3969" started-at="2022-12-28T19:32:14 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new organization (workspace)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="923" started-at="2022-12-28T19:32:18 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get Organizations for a member"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="582" started-at="2022-12-28T19:32:19 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a board inside an organization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="527" started-at="2022-12-28T19:32:19 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get boards in an organization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="470" started-at="2022-12-28T19:32:20 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="545" started-at="2022-12-28T19:32:20 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get all lists on a board"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="584" started-at="2022-12-28T19:32:21 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Archive a list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="1134" started-at="2022-12-28T19:32:21 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a board"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3cef309d]" name="runScenario" duration-ms="681" started-at="2022-12-28T19:32:22 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-28T19:32:23 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete an organization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trello APIs With Different requests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner@3cef309d]" name="tearDownClass" is-config="true" duration-ms="204" started-at="2022-12-28T19:32:23 EET" finished-at="2022-12-28T19:32:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- runners.TestRunner -->
+</testng-results>
